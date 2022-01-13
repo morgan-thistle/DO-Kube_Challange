@@ -18,14 +18,47 @@
     kubeconfig filed downloaded 
 
     doctl setup locally 
-      Follow these [instructions](https://docs.digitalocean.com/reference/doctl/how-to/install/)
+        Follow these instructions: 
+        https://docs.digitalocean.com/reference/doctl/how-to/install/
 
 
+ ## Setting up a Kubernets Cluster on Digital Ocean 
+### This is really easy with Digital Oceans GUI 
+### Go to digitalocean.com and click on Kubernetes on the left.
+![Digital Ocean's Kubernets Start](images/Screenshot-1.resized.png)
+
+### Select your Kubernetes version. Stick with the default if your new to Kubernetes
+![Kubernetes Version](images/Screenshot-2.resized.png)
+### Choose a datacenter region, closer to your physical location the better.
+![Datacenter Region](images/Screenshot-4.resized.png)
  
+### Now, to choose the cluster capacity. 
+![Cluster Capacity](images/Screenshot-5.resized.png)
 
-### It is very easy and quick to setup a Kubernetes cluster on Digital Ocean.
+### Make sure to check the Monthly Rate
+![Monthly Rate](images/Screenshot-6.resized.png)
 
-### This link is a good place to get started: https://docs.digitalocean.com/products/kubernetes/
+### At the bottom, you can finalize. You can change the cluster's name, the project associated with it, or add tags. 
+![Cluster Finalize](images/Screenshot-7.resized.png)
+### And it's just that easy to setup a Kubernetes Cluster
+#
+### While the cluster is setting up, we need to get access to the cluster. Click on 'Get Started'
+![Cluster Finalize](images/Screenshot-8.resized.png)
+
+
+### Make sure that you get the kubeconfig file and setup the Digitial Ocean CTL cli tool doctl. Once done, click Continue
+![Cluster Finalize](images/Screenshot-9.resized.png)
+
+### Choose the date and time for automatically installation of minor patches, then click Save & Continue
+![Cluster Finalize](images/Screenshot-10.resized.png)
+
+### Next is Digital Ocean 'Marketplace 1-Click Apps', a great way to explore apps on Kubernetes, quickly setup and expand your cluster without a lot of setup. 
+![Cluster Finalize](images/Screenshot-11.resized.png)
+
+### The last screen is a chance to review the cluster and download the access cluster config file if needed. 
+![Cluster Finalize](images/Screenshot-12.resized.png)
+## Now that we are all set up, lets get started!
+
 
 #
 ## **First**
